@@ -19,6 +19,12 @@ cats:
       Oracle takes on the most stereotypical form of them all, that of the wise
       and kindly grandmother who bakes cookies in a tenement apartment
     name: The Oracle
+  - name: The Keymaker
+    description: >+
+      The apron-wearing entity imprisoned by the Merovingian who holds the key
+      to the Source. Believing that his only purpose is to deliver this key to
+      the One, the humble, big-hearted Keymaker grinds away in a small closet
+      filled with keys, waiting for the day of his calling.
 ---
 Something Or Other
 
