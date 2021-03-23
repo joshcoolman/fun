@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
+import { attributes, react as HomeContent } from '../content/home.md';
+
 
 export default function Home() {
+  let { title, cats } = attributes;
   return (
     <div className={styles.container}>
       <Head>
@@ -25,7 +28,25 @@ export default function Home() {
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
         </div>
+
       </main>
+
+      <div className={styles.article}>
+        <article>
+          <h1>{title}</h1>
+          <HomeContent />
+          <ul>
+            {cats.map((cat, k) => (
+              <li key={k}>
+                <h2>{cat.name}</h2>
+                <p>{cat.description}</p>
+              </li>
+            ))}
+          </ul>
+        </article>
+      </div>
+
+
 
       <footer className={styles.footer}>
         <p>Powered by Next</p>

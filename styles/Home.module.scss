@@ -7,6 +7,39 @@
     align-items: center;
 }
 
+.article {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        line-height: 1em;
+    }
+    h2 {
+        color: tomato;
+        margin: 5px 0;
+    }
+    li p:last-child {
+        margin-bottom: 20px;
+    }
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 1fr minmax(0, 700px) 1fr;
+    &::before,
+    &::after {
+        content: "";
+    }
+    article {
+        padding: 20px;
+        border-radius: 10px;
+        background-color: var(--color-text);
+        color: var(--color-background);
+    }
+}
+
 .main {
     padding: 5rem 0;
     flex: 1;
