@@ -20,7 +20,7 @@ cats:
       and kindly grandmother who bakes cookies in a tenement apartment
     name: The Oracle
   - name: The Keymaker
-    description: >+
+    description: >
       The apron-wearing entity imprisoned by the Merovingian who holds the key
       to the Source. Believing that his only purpose is to deliver this key to
       the One, the humble, big-hearted Keymaker grinds away in a small closet
@@ -29,3 +29,5 @@ cats:
 Something Or Other
 
 The CMS Test. Kinda sorta lame.
+
+![Girl on a phone](img/avatar-2.png "Girl on a Phone")
